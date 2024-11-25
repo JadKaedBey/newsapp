@@ -37,26 +37,29 @@ Follow these steps to set up and run the project:
 ### Light Theme
 Screenshots of the app in **Light Theme**:
 
-![Light Theme Mobile - Home](/images/phone-light.png)
-![Light Theme Mobile - Article Details](/images/details-phone-light.png)
-![Light Theme Tablet - Home](/images/tablet-light.png)
-![Light Theme Mobile - Article Details](/images/details-tablet-light.png)
-
----
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="/images/phone-light.png" alt="Light Theme Mobile - Home" width="45%">
+    <img src="/images/details-phone-light.png" alt="Light Theme Mobile - Article Details" width="45%">
+    <img src="/images/tablet-light.png" alt="Light Theme Tablet - Home" width="45%">
+    <img src="/images/details-tablet-light.png" alt="Light Theme Tablet - Article Details" width="45%">
+</div>
 
 ### Dark Theme
 Screenshots of the app in **Dark Theme**:
 
-![Dark Theme Mobile - Home](/images/phone-dark.png)
-![Dark Theme Mobile - Article Details](/images/details-phone-dark.png)
-![Dark Theme Tablet - Home](/images/tablet-dark.png)
-![Dark Theme Mobile - Article Details](/images/details-tablet-dark.png)
----
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <img src="/images/phone-dark.png" alt="Dark Theme Mobile - Home" width="45%">
+    <img src="/images/details-phone-dark.png" alt="Dark Theme Mobile - Article Details" width="45%">
+    <img src="/images/tablet-dark.png" alt="Dark Theme Tablet - Home" width="45%">
+    <img src="/images/details-tablet-dark.png" alt="Dark Theme Tablet - Article Details" width="45%">
+</div>
 
 ### Link Opening Demo
 A GIF demonstrating the app's functionality of opening a news link in an external browser:
 
-![Link Opening Demo](images/link-demo.gif)
+<div style="display: flex; justify-content: center;">
+    <img src="/images/link-demo.gif" alt="Link Opening Demo" width="80%">
+</div>
 
 ## Features
 
