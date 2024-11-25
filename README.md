@@ -55,7 +55,7 @@ Screenshots of the app in **Dark Theme**:
 </div>
 
 ### Link Opening Demo
-A GIF demonstrating the app's functionality of opening a news link in an external browser:
+A GIF demonstrating the app's functionality of opening a news link in an external browser or in a WebView:
 
 <div style="display: flex; justify-content: center;">
     <img src="/images/link-demo.gif" alt="Link Opening Demo" width="80%">
@@ -75,7 +75,7 @@ A GIF demonstrating the app's functionality of opening a news link in an externa
   - Headline image.
   - Title, description, and author information.
   - Published date and time.
-- **Read Full Article**: Redirect to the full article in an external browser with a single click.
+- **Read Full Article**: Article can be read either in app or in a browser, depending on user choice
 - **Fallback Mechanisms**: Graceful handling for missing data like images, title, or description.
 
 ### General Features
