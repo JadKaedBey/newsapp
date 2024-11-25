@@ -3,7 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:newsapp/presentation/screens/news_details_screen.dart';
 import 'package:network_image_mock/network_image_mock.dart';
-import 'package:newsapp/data/models/article.dart';
 import 'mocks.mocks.dart';
 
 void main() {

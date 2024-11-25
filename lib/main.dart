@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:newsapp/core/constants/api_constants.dart';
 import 'package:provider/provider.dart';
 import 'package:newsapp/presentation/screens/news_list_screen.dart';
 import 'package:newsapp/presentation/stores/theme_store.dart';
@@ -14,8 +15,10 @@ void main() async {
 
   // Save the API key during app initialization
   final secureKeyRepository = serviceLocator<SecureKeyRepository>();
-  await secureKeyRepository.saveApiKey('your-secret-api-key');
-
+  
+  await secureKeyRepository.saveApiKey(apiKey); 
+  // Obviously this is not the safest solution for the api key, but still safer than just storing the variable without the secure storage service.
+  
   final themeStore = ThemeStore(); // Create ThemeStore to load saved theme
   await themeStore.initializeTheme(); // Initialize theme properly
   runApp(MyApp(themeStore: themeStore));
