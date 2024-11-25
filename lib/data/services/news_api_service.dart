@@ -18,7 +18,8 @@ class NewsApiService {
 
     if (response.statusCode == 200) {
       final data = response.data['articles'] as List;
-      return data.map((article) => Article.fromJson(article)).toList();
+      final articles = data.map((article) => Article.fromJson(article)).toList();
+      return _filterRemovedArticles(articles);
     } else {
       throw Exception('Failed to fetch top headlines');
     }
@@ -35,12 +36,13 @@ class NewsApiService {
 
     if (response.statusCode == 200) {
       final data = response.data['articles'] as List;
-      return data.map((article) => Article.fromJson(article)).toList();
+      final articles = data.map((article) => Article.fromJson(article)).toList();
+      return _filterRemovedArticles(articles);
     } else {
       throw Exception('Failed to fetch articles for topic: $topic');
     }
   }
-
+  
   Future<List<Article>> searchArticles(String query) async {
     final response = await dio.get(
       'https://newsapi.org/v2/everything',
@@ -57,5 +59,8 @@ class NewsApiService {
       throw Exception('Failed to fetch search results for: $query');
     }
   }
-}
 
+  List<Article> _filterRemovedArticles(List<Article> articles) {
+    return articles.where((article) => article.title != "[Removed]").toList();
+  }
+}
