@@ -38,20 +38,20 @@ Follow these steps to set up and run the project:
 Screenshots of the app in **Light Theme**:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="/images/phone-light.png" alt="Light Theme Mobile - Home" width="45%">
-    <img src="/images/details-phone-light.png" alt="Light Theme Mobile - Article Details" width="45%">
-    <img src="/images/tablet-light.png" alt="Light Theme Tablet - Home" width="45%">
-    <img src="/images/details-tablet-light.png" alt="Light Theme Tablet - Article Details" width="45%">
+    <img src="/images/phone-light.png" alt="Light Theme Mobile - Home" width="35%">
+    <img src="/images/details-phone-light.png" alt="Light Theme Mobile - Article Details" width="35%">
+    <img src="/images/tablet-light.png" alt="Light Theme Tablet - Home" width="35%">
+    <img src="/images/details-tablet-light.png" alt="Light Theme Tablet - Article Details" width="35%">
 </div>
 
 ### Dark Theme
 Screenshots of the app in **Dark Theme**:
 
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <img src="/images/phone-dark.png" alt="Dark Theme Mobile - Home" width="45%">
-    <img src="/images/details-phone-dark.png" alt="Dark Theme Mobile - Article Details" width="45%">
-    <img src="/images/tablet-dark.png" alt="Dark Theme Tablet - Home" width="45%">
-    <img src="/images/details-tablet-dark.png" alt="Dark Theme Tablet - Article Details" width="45%">
+    <img src="/images/phone-dark.png" alt="Dark Theme Mobile - Home" width="35%">
+    <img src="/images/details-phone-dark.png" alt="Dark Theme Mobile - Article Details" width="35%">
+    <img src="/images/tablet-dark.png" alt="Dark Theme Tablet - Home" width="35%">
+    <img src="/images/details-tablet-dark.png" alt="Dark Theme Tablet - Article Details" width="35%">
 </div>
 
 ### Link Opening Demo
