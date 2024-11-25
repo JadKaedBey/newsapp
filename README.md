@@ -84,6 +84,7 @@ A GIF demonstrating the app's functionality of opening a news link in an externa
 - **Provider Integration**: Dependency injection for managing stores and services.
 - **Error Handling**: User-friendly error messages for failed network requests.
 - **Offline Fallback**: Displays placeholders for missing images and invalid links.
+- **Bad Article Filtering**: The API service automatically cleans fetched articles from any articles that are missing key information, such as a headline
 
 ## Testing
 

@@ -4,7 +4,6 @@ import 'package:newsapp/presentation/stores/news_list_store.dart';
 import 'package:newsapp/presentation/screens/news_details_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:newsapp/presentation/stores/theme_store.dart';
-import 'package:newsapp/core/constants/app_theme.dart';
 
 class NewsListScreen extends StatefulWidget {
   @override
